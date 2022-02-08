@@ -1,0 +1,121 @@
+.intro{
+    display: block;
+}
+
+
+.intro__container{
+    width: 1440px;
+    height: 680px;
+    background-image: url(../img/Mask.png) , url(../../img/intro-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.link{
+    padding: 14px 39px;
+    color: #fff;
+    background-color: #FCB72B;;
+    text-decoration: none;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    border: 3px solid #FCB72B;
+}
+
+.link:hover{
+    transition: ease .4s;
+    background-color: transparent;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 14px 39px;
+    text-decoration: none;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}
+.intro__content{
+    max-width: 577px;
+    margin-top: 70px;
+    position: relative;
+    &::before{
+        content: "";
+        width: 200px;
+        height: 20px;
+        position: absolute;
+        z-index: 2;
+        background-image: url(../img/intro-before.svg);
+        background-repeat: no-repeat;
+        top: 344px;
+        left: -164px;
+    }
+
+    &::after{
+        content: "";
+        width: 500px;
+        height: 150px;
+        position: absolute;
+        z-index: 2;
+        background-image: url(../img/intro-after.svg);
+        background-repeat: no-repeat;
+        top: 345px;
+        left: 530px;
+    }
+}
+
+.intro__title{
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    color: #fff;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+}
+
+.intro__description{
+    margin-left: 57px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #fff;
+    font-family: "Lexend Deca";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+@media screen and (max-width:770px){
+
+    .intro__container{
+        width: 100%;
+        max-width: 688px;
+        height: 680px;
+        background-image:url(../img/tablet-bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .intro__content{
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 217px;
+        text-align: center;
+        &::before{
+            display: none;
+        }
+
+        &::after{
+            top:440px;
+            left:-235px;
+        }
+    }
+
+    
+
+}

@@ -1,0 +1,157 @@
+.app__content{
+    margin: -180px;
+    padding-top: 500px;
+    position: relative;
+}
+
+.app__list{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+.app__item{
+    position: relative;
+    width: 350px;
+    &::before{
+        content: "";
+        width: 96px;
+        height: 96px;
+        position: absolute;
+        z-index: 2;
+        top: -130px;
+        left: 0;
+        background-image: url(../img/telefon_icon.svg);
+    }
+
+}
+
+.app__item1{
+    position: relative;
+    width: 350px;
+    &::before{
+        content: "";
+        width: 96px;
+        height: 96px;
+        position: absolute;
+        z-index: 2;
+        top: -130px;
+        left: 0;
+        background-image: url(../img/moto_icon.svg);
+    }
+
+}
+
+.app__item2{
+    position: relative;
+    width: 350px;
+    &::before{
+        content: "";
+        width: 96px;
+        height: 96px;
+        position: absolute;
+        z-index: 2;
+        top: -130px;
+        left: 0;
+        background-image: url(../img/hello-moto_icon.svg);
+    }
+
+}
+
+.app__item + .app__item{
+    margin-left: 30px;
+}
+
+.app__title{
+    width: 350px;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px; 
+
+}
+
+.app__description{
+    margin-right: 30px;
+    margin-bottom: 266px;
+    width: 350px;
+    color: #939CAA;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.app__icon{
+    width: 974px;
+    height: 10px;
+    top: 415px;
+    left: -30px;
+    background-color: #E5ECF4;
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 770px){
+    .app__list{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 75px;
+        margin-left: auto;
+        max-width: 573px;
+        width: 100%;
+    }
+
+    .app__icon{
+        position: absolute;
+        z-index: 1;
+        top: -130px;
+        left: -145px;
+        width: 15px;
+        height: 612px;
+    }
+
+    .app__content{
+        width: 398px;
+        padding: 0 50px;
+        margin-left: 200px;
+        margin-top: 130px
+    }
+
+    .app__item{
+            &::before{
+                top: 20px;
+            left: -230px;
+
+        }
+    }
+
+    .app__item1{
+        &::before{
+            top: 20px;
+            left: -230px;
+
+        }
+    }
+
+    .app__item2{
+        &::before{
+            top: 20px;
+            left: -230px;
+
+        }
+
+        .app__description{
+            margin-bottom: 300px;
+        }
+    }
+
+    .app__description{
+        margin-bottom: 50px;
+    }
+}

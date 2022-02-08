@@ -1,0 +1,1670 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
+*,
+*::after,
+*::before {
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  border-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-x: hidden;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url("../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"), url("../fonts/LexendDeca-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 165px;
+  padding-right: 165px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    width: 100%;
+    max-width: 768px;
+    padding: 0 40px;
+  }
+}
+
+.logo__img {
+  display: block;
+}
+
+.header {
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  max-width: inherit;
+  position: fixed;
+  padding-top: 20px;
+  margin-bottom: 21px;
+  background-color: #fff;
+  z-index: 3;
+}
+
+.header__container {
+  border-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__img {
+  display: block;
+}
+
+.nav {
+  width: 100%;
+  max-width: 415px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Space Mono";
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.nav__header-link {
+  color: #939CAA;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.nav__header-link:hover {
+  color: #FCB72B;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
+}
+
+.header__link {
+  border: 3px solid transparent;
+  padding: 14px 39px;
+  color: #fff;
+  background-color: #FCB72B;
+  text-decoration: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.header__link:hover {
+  background-color: #fff;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__container {
+    max-width: 688px;
+  }
+  .header__link {
+    width: 156px;
+    padding: 12px 24px;
+  }
+  link {
+    border: 3px solid transparent;
+    padding: 10px 24px;
+    color: #fff;
+    background-color: #FCB72B;
+    text-decoration: none;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header__container {
+    max-width: 345px;
+  }
+  .header__link {
+    width: 156px;
+    padding: 12px 24px;
+  }
+  link {
+    display: none;
+  }
+}
+
+.intro {
+  display: block;
+}
+
+.intro__container {
+  width: 1440px;
+  height: 680px;
+  background-image: url(../img/Mask.png), url(../../img/intro-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.link {
+  padding: 14px 39px;
+  color: #fff;
+  background-color: #FCB72B;
+  text-decoration: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  border: 3px solid #FCB72B;
+}
+
+.link:hover {
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
+  background-color: transparent;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+  padding: 14px 39px;
+  text-decoration: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.intro__content {
+  max-width: 577px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.intro__content::before {
+  content: "";
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../img/intro-before.svg);
+  background-repeat: no-repeat;
+  top: 344px;
+  left: -164px;
+}
+
+.intro__content::after {
+  content: "";
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../img/intro-after.svg);
+  background-repeat: no-repeat;
+  top: 345px;
+  left: 530px;
+}
+
+.intro__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 150px;
+  color: #fff;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+.intro__description {
+  margin-left: 57px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #fff;
+  font-family: "Lexend Deca";
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 770px) {
+  .intro__container {
+    width: 100%;
+    max-width: 688px;
+    height: 680px;
+    background-image: url(../img/tablet-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .intro__content {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 217px;
+    text-align: center;
+  }
+  .intro__content::before {
+    display: none;
+  }
+  .intro__content::after {
+    top: 440px;
+    left: -235px;
+  }
+}
+
+.app__content {
+  margin: -180px;
+  padding-top: 500px;
+  position: relative;
+}
+
+.app__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.app__item {
+  position: relative;
+  width: 350px;
+}
+
+.app__item::before {
+  content: "";
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  z-index: 2;
+  top: -130px;
+  left: 0;
+  background-image: url(../img/telefon_icon.svg);
+}
+
+.app__item1 {
+  position: relative;
+  width: 350px;
+}
+
+.app__item1::before {
+  content: "";
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  z-index: 2;
+  top: -130px;
+  left: 0;
+  background-image: url(../img/moto_icon.svg);
+}
+
+.app__item2 {
+  position: relative;
+  width: 350px;
+}
+
+.app__item2::before {
+  content: "";
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  z-index: 2;
+  top: -130px;
+  left: 0;
+  background-image: url(../img/hello-moto_icon.svg);
+}
+
+.app__item + .app__item {
+  margin-left: 30px;
+}
+
+.app__title {
+  width: 350px;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.app__description {
+  margin-right: 30px;
+  margin-bottom: 266px;
+  width: 350px;
+  color: #939CAA;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.app__icon {
+  width: 974px;
+  height: 10px;
+  top: 415px;
+  left: -30px;
+  background-color: #E5ECF4;
+  position: absolute;
+}
+
+@media only screen and (max-width: 770px) {
+  .app__list {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-left: auto;
+    max-width: 573px;
+    width: 100%;
+  }
+  .app__icon {
+    position: absolute;
+    z-index: 1;
+    top: -130px;
+    left: -145px;
+    width: 15px;
+    height: 612px;
+  }
+  .app__content {
+    width: 398px;
+    padding: 0 50px;
+    margin-left: 200px;
+    margin-top: 130px;
+  }
+  .app__item::before {
+    top: 20px;
+    left: -230px;
+  }
+  .app__item1::before {
+    top: 20px;
+    left: -230px;
+  }
+  .app__item2::before {
+    top: 20px;
+    left: -230px;
+  }
+  .app__item2 .app__description {
+    margin-bottom: 300px;
+  }
+  .app__description {
+    margin-bottom: 50px;
+  }
+}
+
+.use {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.use__list {
+  width: 1106px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.use__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1040px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.use__item:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 200px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.use__item:nth-child(2) .use__content {
+  margin-right: 0;
+}
+
+.use__item:nth-child(2) .use__content::after {
+  content: "";
+  width: 108px;
+  height: 445px;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../img/use-befor.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -15px;
+  left: -860px;
+}
+
+.use__item:nth-child(2) .use__content::before {
+  content: "";
+  width: 750px;
+  height: 150px;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../img/strelka-uzun-chap.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 10px;
+  left: -1250px;
+}
+
+.use__item:nth-child(2) .use__img {
+  margin-left: 1px;
+}
+
+.use__item + .use__item {
+  margin-top: 150px;
+}
+
+.use__content {
+  padding-top: 30px;
+  width: 445px;
+  position: relative;
+  width: 350px;
+}
+
+.use__content::before {
+  content: "";
+  width: 110px;
+  height: 445px;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 1170px;
+  background-image: url(../img/use-after.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.use__content::after {
+  content: "";
+  width: 750px;
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+  top: 295px;
+  left: 540px;
+  background-image: url(../img/strelka-uzun.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.use__title {
+  width: 445px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.use__description {
+  width: 400px;
+  margin-bottom: 50px;
+  color: #939CAA;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.use__img {
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  margin-left: 320px;
+  margin-bottom: 100px;
+}
+
+.karman {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+  .use__container {
+    width: 100%;
+    max-width: 688px;
+  }
+  .use__content {
+    text-align: center;
+    width: 100%;
+    max-width: 460px;
+    margin-bottom: 56px;
+  }
+  .use__list {
+    width: 100%;
+    max-width: 688px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .use__item {
+    width: 100%;
+    max-width: 455px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .use__description {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .use__img {
+    left: 0;
+    margin: 0;
+  }
+  .use__content::after {
+    content: "";
+    width: 650px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 720px;
+    left: -100px;
+    background-image: url(../img/strelka-uzun.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .use__content::before {
+    content: "";
+    width: 110px;
+    height: 445px;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 465px;
+    background-image: url(../img/use-after.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .use__item + .use__item {
+    margin-top: 150px;
+    margin-left: 60px;
+  }
+  .use__item:nth-child(2) .use__img {
+    margin-left: 450px;
+    margin-top: 450px;
+  }
+  .use__item:nth-child(2) .use__content::before {
+    content: "";
+    width: 750px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/strelka-uzun-chap.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 450px;
+    left: -550px;
+  }
+  .use__item:nth-child(2) .use__content::after {
+    content: "";
+    width: 108px;
+    height: 445px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/use-befor.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 425px;
+    left: -150px;
+  }
+  .use__item:nth-child(2) .use__content {
+    margin-right: -15px;
+  }
+}
+
+.footer {
+  margin-top: 250px;
+}
+
+.footer__top--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1440px;
+  height: 300px;
+  background: #495567;
+}
+
+.footer__top__title {
+  padding-top: 70px;
+  padding-bottom: 155px;
+  width: 415px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+.footer__bottom--container {
+  padding: 35px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333A44;
+}
+
+.icons-link {
+  padding-right: 24px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.icons-link:hover .footer__icon-color {
+  fill: #E5ECF4;
+}
+
+.footer__icon-color {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  fill: #FCB72B;
+}
+
+@media only screen and (max-width: 770px) {
+  .footer__top--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__top__title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+  }
+  .icon {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .nav__header-link {
+    display: none;
+  }
+}
+
+.about__intro {
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.about__intro--container {
+  width: 1440px;
+  background-image: url(../img/about-intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.about__title {
+  margin-top: -7px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 770px) {
+  .about__intro--container {
+    width: 100%;
+    max-width: 688px;
+    height: 200px;
+    background-image: url(../img/about-intro-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.about__use {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__use-list {
+  width: 1106px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 170px;
+}
+
+.about__use-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1040px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__use-item:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 200px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.about__use-item:nth-child(2) .about__use-content {
+  margin-right: 0;
+}
+
+.about__use-item:nth-child(2) .about__use-content::before {
+  content: "";
+  width: 108px;
+  height: 445px;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../img/use-befor.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  left: -860px;
+}
+
+.about__use-item:nth-child(2) .about__use-content::after {
+  content: "";
+  width: 735px;
+  height: 150px;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../../img/strelka-uzun-chap.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 25px;
+  left: -1250px;
+}
+
+.about__use-item:nth-child(2) .about__use-img {
+  margin-right: 240px;
+}
+
+.about__use-item:nth-child(2n) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.about__use-content {
+  width: 445px;
+  position: relative;
+  width: 350px;
+}
+
+.about__use-content::before {
+  content: "";
+  width: 110px;
+  height: 445px;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 1175px;
+  background-image: url(../img/use-after.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__use-content::after {
+  content: "";
+  width: 750px;
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+  top: 265px;
+  left: 545px;
+  background-image: url(../../img/about-strelka-ong.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__use-title {
+  width: 445px;
+  padding-top: 70px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.about__use-description {
+  width: 400px;
+  margin-bottom: 40px;
+  color: #939CAA;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.about__use-img {
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  margin-left: 310px;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 770px) {
+  .about__use-container {
+    width: 100%;
+    max-width: 688px;
+  }
+  .about__use-content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 460px;
+    margin-top: 100px;
+  }
+  .about__use-list {
+    width: 100%;
+    max-width: 688px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about__use-item {
+    width: 100%;
+    max-width: 455px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about__use-description {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 56px;
+  }
+  .about__use-img {
+    margin: 0;
+    margin-bottom: 0;
+  }
+  .about__use-content::after {
+    content: "";
+    width: 750px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 590px;
+    left: -120px;
+    background-image: url(../../img/about-strelka-ong.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about__use-item:nth-child(2) .about__use-content {
+    margin-right: -100px;
+    margin-top: -20px;
+  }
+  .about__use-item:nth-child(2) .about__use-img {
+    margin-right: -468px;
+    margin-top: 330px;
+  }
+  .about__use-item:nth-child(2) .about__use-content::before {
+    content: "";
+    width: 108px;
+    height: 445px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/use-befor.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 330px;
+    left: -150px;
+  }
+  .about__use-item:nth-child(2) .about__use-content::after {
+    content: "";
+    width: 735px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../img/strelka-uzun-chap.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 365px;
+    left: -550px;
+  }
+}
+
+.about__our-values-title {
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  padding-bottom: 73px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.our__values-list {
+  width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.our__values-item {
+  position: relative;
+  width: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our__values-item + .our__values-item {
+  margin-left: 30px;
+}
+
+.span {
+  width: 96px;
+  height: 96px;
+  padding: 34px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 38%;
+  background-color: #FCB72B;
+  border-radius: 50%;
+}
+
+.our__values-img {
+  width: 285px;
+  height: 285px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our__values-title {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  margin-top: 87px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.our__values-description {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  width: 350px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #939CAA;
+}
+
+@media only screen and (max-width: 770px) {
+  .our__values-container {
+    width: 100%;
+    max-width: 688px;
+  }
+  .our__values-content {
+    width: 457px;
+  }
+  .our__values-description {
+    margin-bottom: 40px;
+  }
+  .our__values-list {
+    margin: 0;
+    margin-left: -265px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .our__values-item {
+    padding: 0;
+    margin: 0;
+  }
+  .span {
+    top: 45%;
+  }
+}
+
+.faq__container {
+  text-align: center;
+}
+
+.faq__title {
+  margin-top: 120px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.faq__inner-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.faq__inner-inner--title {
+  width: 350px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+
+.faq__inner-inner--list {
+  list-style: none;
+}
+
+.faq__inner-inner--item {
+  padding: 32px;
+  width: 730px;
+  height: 92px;
+  margin-bottom: 16px;
+  background-color: #F2F5F9;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  position: relative;
+}
+
+.faq__inner-inner--item::before {
+  content: "";
+  width: 16px;
+  height: 8px;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 670px;
+  background-image: url(../img/pasga.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq__inner-inner--item1 {
+  padding: 32px;
+  width: 730px;
+  height: 191px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  background-color: #F2F5F9;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  position: relative;
+}
+
+.faq__inner-inner--item1::before {
+  content: "";
+  width: 16px;
+  height: 8px;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 670px;
+  background-image: url(../img/tepaga.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq__inner-inner--text {
+  padding: 10px 40px 32px 40px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #495567;
+}
+
+@media only screen and (max-width: 770px) {
+  .faq__container {
+    width: 100%;
+    max-width: 688px;
+    margin-left: 0 auto;
+  }
+  .faq__inner-inner--title {
+    margin-bottom: -15px;
+  }
+  .faq__inner-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */

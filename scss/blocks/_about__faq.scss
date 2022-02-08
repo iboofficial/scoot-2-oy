@@ -1,0 +1,125 @@
+// .about__faq {
+
+// }
+.faq__container {
+    text-align: center;
+}
+
+// .faq__inner {
+
+// }
+.faq__title {
+    margin-top: 120px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+.faq__inner-inner {
+    display: flex;
+}
+.faq__inner-inner--title {
+    width: 350px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.78571px;
+    color: #495567;
+}
+.faq__inner-inner--list {
+    list-style: none;
+}
+.faq__inner-inner--item {
+    padding: 32px;
+    width: 730px;
+    height: 92px;
+    margin-bottom: 16px;
+    background-color: #F2F5F9;;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 16px;
+        height: 8px;
+        position: absolute;
+        z-index: 1;
+        top:  40px;
+        left: 670px;
+        background-image: url(../img/pasga.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+.faq__inner-inner--item1{
+    padding: 32px;
+    width: 730px;
+    height: 191px;
+    margin-bottom: 16px;
+    margin-top: 30px;
+    background-color: #F2F5F9;;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 16px;
+        height: 8px;
+        position: absolute;
+        z-index: 1;
+        top:  40px;
+        left: 670px;
+        background-image: url(../img/tepaga.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.faq__inner-inner--text {
+    padding: 10px 40px 32px 40px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #495567;
+}
+
+@media only screen and (max-width: 770px) {
+    .faq__container{
+        width: 100%;
+        max-width: 688px;
+        margin-left: 0 auto;
+        
+    }
+
+   .faq__inner-inner--title{
+       margin-bottom:-15px;
+    }
+
+    .faq__inner-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
